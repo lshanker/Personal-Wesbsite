@@ -218,10 +218,49 @@ article.projects {
   min-width: 600px;
 }
 
+/*The project description*/
+
+section.project > img{
+  display: inline-block;
+  float: left;
+  height: auto;
+  width: auto;
+  max-height: 150px;
+  margin-top: 14.4px;
+}
+
+section.project h2{
+  margin-top: 18px;
+}
+
+section.project div.title-with-description{
+  display: inline-block;
+  width: 72%;
+  margin-left: 2%;
+}
 
 
+/*The github and devpost links at the bottom of the project descripotion*/
+section.project div.link{
+  max-width: 172px;
+  display: inline-block;
+}
 
+section.project img.tiny{
+  height: auto;
+  width: auto;
+  max-width: 10%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
 
+section.project a{
+  color: rgb(66, 134, 244);
+}
+
+section.project a:hover{
+  font-weight: bold;
+}
 
 /*-----------Footer Styles------------*/
 
